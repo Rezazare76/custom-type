@@ -1,6 +1,6 @@
 {
   "name": "custom-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of custom TypeScript types for use across projects",
   "main": "",
   "types": "index.d.ts",
@@ -8,16 +8,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rezazare76/custom-types.git"
+    "url": "https://github.com/Rezazare76/custom-type.git"
   },
   "bugs": {
-    "url": "https://github.com/Rezazare76/custom-types/issues"
+    "url": "https://github.com/Rezazare76/custom-type/issues"
   },
-  "homepage": "https://github.com/Rezazare76/custom-types#readme",
+  "homepage": "https://github.com/Rezazare76/custom-type#readme",
   "keywords": [
     "typescript",
     "types",
-    "custom-types",
+    "custom-type",
     "react"
   ],
   "scripts": {
