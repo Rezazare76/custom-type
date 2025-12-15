@@ -1,13 +1,13 @@
 import React, { JSX } from "react";
 
-export type IchildrenProps = {
+export type ChildrenProps  = {
   children?: React.ReactNode;
 };
-export type ItagNameProps = {
+export type TagNameProps  = {
   tagName: keyof JSX.IntrinsicElements;
 };
 
-export interface IcommonProps<T> {
+export interface CommonProps<T> {
   /** Unique identifier for the element */
   id?: string;
   /** Name attribute for the element, often used in forms */
@@ -25,10 +25,10 @@ export interface IcommonProps<T> {
   /** Data attributes for custom purposes */
   [dataAttr: `data-${string}`]: string | undefined;
 }
-export interface IlabelCommonProps {
+export interface LabelCommonProps {
   htmlFor: string;
 }
-export interface IeventHandlerProps<T extends Element = HTMLElement> {
+export interface EventHandlerProps<T extends Element = HTMLElement> {
   /** Form events */
   onChange?: React.ChangeEventHandler<T>;
   onInput?: React.FormEventHandler<T>;
